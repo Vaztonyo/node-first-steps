@@ -1,3 +1,6 @@
+(function(){
+  'use strict';
+
 const chalk = require('chalk');
 
 const greet = require('./greet');
@@ -13,8 +16,8 @@ console.log(styledMessage)
 
 var figlet = require('figlet');
 
-figlet('Hello Xola!!', {
-  font: 'Ghost',
+figlet('Hello Vaztonyo!!', {
+  //font: 'Ghost',
   horizontalLayout: 'default',
   verticalLayout: 'default'
 }, function(err, data) {
@@ -25,3 +28,6 @@ figlet('Hello Xola!!', {
     }
     console.log(data)
 });
+
+
+})();
